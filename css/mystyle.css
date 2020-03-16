@@ -12,6 +12,11 @@ body{
     color: #E20074;
 }
 
+.bodydark {
+    background-color: rgb(78, 72, 77);
+    color: #E20074;
+}
+
 .footer { 
     background-color: #E20074;
 }
