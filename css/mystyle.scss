@@ -1,0 +1,11 @@
+@mixin autores() {
+    @for $i from 1 through 4 {
+		@if ($i % 2 == 1) {
+			.autor-#{$i} {
+				color: black;
+			}
+		}
+	}
+}
+
+* { @include autores(); }
