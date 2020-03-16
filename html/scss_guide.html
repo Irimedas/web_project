@@ -1,4 +1,5 @@
 <html>
+
 <head>
   <meta charset="utf-8">
 
@@ -10,30 +11,72 @@
 </head>
 
 <body>
-    <header>
-      <ul class="header">
-        <a href="index.html">
-          <img src="../resources/Tsystems_logo_white.png" alt="Flowers in Chania" width="150W">
-        </a>
-      </ul>
-      </ul>
-    </header>
-    <div class="body">
-      <div>
-        <h1>SCSS Guide</h1>
-        <h2>Cómo usar SCSS y sus diferencias con CSS</h2>
-      </div>
-      <div>
-        <p>
-          SCSS sirve para establecer los estilos de una página, igual que CSS, pero tiene varias diferencias que hacen que pueda ser más dinámico y creativo.
-        </p>
-        <p>
-          Por ejemplo, una de estas diferencias es que se pueden usar tanto bucles for como funciones gracias al uso de variables.
-        </p>
-      </div>
+  <header>
+    <ul class="header">
+      <a href="index.html">
+        <img src="../resources/Tsystems_logo_white.png" alt="Flowers in Chania" width="150W">
+      </a>
+    </ul>
+    </ul>
+  </header>
+  <div class="body">
+    <div>
+      <h1>SCSS Guide</h1>
+      <h2>Cómo usar SCSS y sus diferencias con CSS</h2>
     </div>
-    <footer>
+    <div>
+      <p>
+        SCSS sirve para establecer los estilos de una página, igual que CSS, pero tiene varias diferencias que hacen que
+        pueda ser más dinámico y creativo.
+      </p>
+      <p>
+        Por ejemplo, una de estas diferencias es que se pueden usar tanto bucles for como funciones gracias al uso de
+        variables.
+      </p>
+      <br>
+      <p>
+        Un ejemplo del uso de variables y de cómo es el código en si es el siguiente:
+      </p>
+      <br>
+      <br>
+      <p class="codigo">
+        $font-stack: Helvetica, sans-serif;
+        <br>
+        $primary-color: #333;
+        <br><br>
+        body {<br>&nbsp; &nbsp; &nbsp; &nbsp;
+        font: 100% $font-stack;
+        <br>&nbsp; &nbsp; &nbsp; &nbsp;
+        color: $primary-color;
+        <br>}
+      </p>
+      <br>
+      <p>
+        Otro cambio de SCSS es que cuando se ponen estilos en propiedades anidadas se ve mucho más claro visualmente.
+        Por ejemplo, en vez de:</p>
+      <p class="codigo">
+        ul {<br>&nbsp; &nbsp; &nbsp; &nbsp;
+        color: red;
+        <br>}
+        <br>ul li {<br>&nbsp; &nbsp; &nbsp; &nbsp;
+        color: blue;
+        <br>}
+      </p>
+      <p><br>
+        Tendriamos esto:</p>
+      <p class="codigo">
+        ul {<br>&nbsp; &nbsp; &nbsp; &nbsp;
+        color: red;<br>&nbsp; &nbsp; &nbsp; &nbsp;
+        li {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        color: blue;<br>&nbsp; &nbsp; &nbsp; &nbsp;
+        }<br>
+        }
+      </p>
+    </div>
+  </div>
+  <footer>
 
-    </footer>
+  </footer>
 </body>
+
 </html>
