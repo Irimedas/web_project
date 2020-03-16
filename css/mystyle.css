@@ -27,9 +27,11 @@
 body{
     margin: 0px;
 }
+
 .body {
     background-color: #A59DA3;
     color: #E20074;
+    padding: 10px 25px 10px 25px;
 }
 
 .bodydark {
@@ -81,6 +83,10 @@ h1 a:hover{
     display: table;
     clear: both;
   }
+
+.main_text{
+  padding-bottom: 10px;
+}
 
 @media only screen and (min-width: 600px) {
     /* For tablets: */
