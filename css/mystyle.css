@@ -16,7 +16,15 @@ body{
 .bodydark {
     background-color: rgb(78, 72, 77);
     color: #E20074;
+   /* position: absolute;
+    bottom: 10px;
+    width: 100w;*/
 }
+
+div.absolute {
+    position: absolute;
+    bottom: 10px;
+  }
 
 .footer { 
     background-color: #E20074;
@@ -28,6 +36,13 @@ h1,h2{
 }
 h1,h2,p{
     margin: 0px;
+}
+h1 a{
+    color: white;
+    text-decoration: none;
+}
+h1 a:hover{
+    background-color: violet;
 }
 
 .nav li {
